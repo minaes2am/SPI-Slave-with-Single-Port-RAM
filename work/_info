@@ -1,0 +1,352 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/Mina/Downloads/digital_ic_design/project_2
+T_opt
+!s110 1753991560
+VK[SRWJVOb3Ul^Na<TQ;Xk2
+04 4 4 work test fast 0
+=2-e8fb1c7d5795-688bc987-2dc-3334
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1753973950
+V3hd35DhG:;1MBG27C2>G^2
+04 14 4 work tb_SPI_Wrapper fast 0
+=1-e8fb1c7d5795-688b84be-d-6be0
+R2
+R3
+R4
+n@_opt1
+R5
+R1
+vRAM
+!s110 1753988937
+!i10b 1
+!s100 Jo6[aBJF7EAMNZfM^YX?S2
+I7@_ozBB?LQcN76fainYHc1
+R1
+w1753988477
+Z6 8RAM.v
+Z7 FRAM.v
+!i122 68
+Z8 L0 1 48
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1753988937.000000
+Z11 !s107 Test_Bench.v|SPI_WRAPPER.v|RAM.v|SPI.v|
+Z12 !s90 -reportprogress|300|SPI.v|RAM.v|SPI_WRAPPER.v|Test_Bench.v|
+!i113 0
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@r@a@m
+vRAM_Controller
+!s110 1753973865
+!i10b 1
+!s100 @XH4Q[a3>;SBjce1J?ddG3
+IDB[kMW^L7[ibWAIC3@m3Q0
+R1
+w1753973749
+8C:/Users/Mina/Downloads/digital_ic_design/project_2/RAM.v
+FC:/Users/Mina/Downloads/digital_ic_design/project_2/RAM.v
+!i122 25
+L0 1 51
+R9
+R10
+r1
+!s85 0
+31
+!s108 1753973865.000000
+!s107 C:/Users/Mina/Downloads/digital_ic_design/project_2/RAM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Mina/Downloads/digital_ic_design/project_2/RAM.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@r@a@m_@controller
+vRAM_MODULE
+Z15 !s110 1754254435
+!i10b 1
+!s100 oc4PcV1^I9PIdBbnb90=Z3
+ILT>6[g0i]ESKJ<D:NN<eO1
+R1
+w1753989708
+R6
+R7
+!i122 77
+R8
+R9
+R10
+r1
+!s85 0
+31
+Z16 !s108 1754254435.000000
+R11
+R12
+!i113 0
+R13
+R4
+n@r@a@m_@m@o@d@u@l@e
+vSPI
+Z17 !s110 1753975666
+!i10b 1
+!s100 eDHzak94QE621KL^ihJ4d1
+IQ:LSiej5b3LATEKMk80773
+R1
+w1753974643
+Z18 8SPI.v
+Z19 FSPI.v
+!i122 37
+L0 1 102
+R9
+R10
+r1
+!s85 0
+31
+Z20 !s108 1753975666.000000
+R11
+R12
+!i113 0
+R13
+R4
+n@s@p@i
+vSPI_block
+!s110 1753974281
+!i10b 1
+!s100 QGYE4XVVWW01I2S:IbVXh2
+Ii1<4AQ1:iH7ID3@[ZRezh3
+R1
+w1753974125
+R18
+R19
+!i122 29
+L0 1 150
+R9
+R10
+r1
+!s85 0
+31
+!s108 1753974281.000000
+R11
+R12
+!i113 0
+R13
+R4
+n@s@p@i_block
+vSPI_MODULE
+R15
+!i10b 1
+!s100 ^ZaTDX4BCUfW02S5`Y`n01
+IeA1:`7jzDK=5_]4C^j6S30
+R1
+w1753988440
+R18
+R19
+!i122 77
+L0 1 133
+R9
+R10
+r1
+!s85 0
+31
+R16
+R11
+R12
+!i113 0
+R13
+R4
+n@s@p@i_@m@o@d@u@l@e
+vSPI_SLAVE
+!s110 1753978600
+!i10b 1
+!s100 KRD=2a^U_J6X4Li=IkCfZ0
+I>Nc17nH_]o2fiD]49e9AO3
+R1
+w1753975849
+R18
+R19
+!i122 59
+L0 1 135
+R9
+R10
+r1
+!s85 0
+31
+!s108 1753978600.000000
+R11
+R12
+!i113 0
+R13
+R4
+n@s@p@i_@s@l@a@v@e
+vSPI_SLAVE_Interface
+!s110 1753973861
+!i10b 1
+!s100 <N^5_3jl[NcGgE^h3LL=23
+IdW`m=O:zj>cYEL25M^nAS2
+R1
+w1753973695
+8C:/Users/Mina/Downloads/digital_ic_design/project_2/SPI.v
+FC:/Users/Mina/Downloads/digital_ic_design/project_2/SPI.v
+!i122 24
+L0 1 54
+R9
+R10
+r1
+!s85 0
+31
+!s108 1753973861.000000
+!s107 C:/Users/Mina/Downloads/digital_ic_design/project_2/SPI.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Mina/Downloads/digital_ic_design/project_2/SPI.v|
+!i113 0
+R14
+R4
+n@s@p@i_@s@l@a@v@e_@interface
+vSPI_Wrapper
+R15
+!i10b 1
+!s100 QOOl3DJ:TA7mm@^5PnBj>2
+Ibe<@;fE5Z`X<3KnUJNc8]0
+R1
+w1753989935
+Z21 8SPI_WRAPPER.v
+Z22 FSPI_WRAPPER.v
+!i122 77
+L0 1 15
+R9
+R10
+r1
+!s85 0
+31
+R16
+R11
+R12
+!i113 0
+R13
+R4
+n@s@p@i_@wrapper
+vSPI_WRAPPER_MODULE
+R17
+!i10b 1
+!s100 D87MZ3>;R>^0DPUWMmD^N1
+Il?8G3N>@@@Uf7IIo0_WnB2
+R1
+w1753974913
+R21
+R22
+!i122 37
+L0 1 33
+R9
+R10
+r1
+!s85 0
+31
+R20
+R11
+R12
+!i113 0
+R13
+R4
+n@s@p@i_@w@r@a@p@p@e@r_@m@o@d@u@l@e
+vtb_SPI_Wrapper
+!s110 1753973913
+!i10b 1
+!s100 dM8ZT]B7SMG4K2a8g@=AQ0
+I:?@ikhX5:>:W`eHMM0Ee83
+R1
+w1753973906
+8C:/Users/Mina/Downloads/digital_ic_design/project_2/Test_Bench.v
+FC:/Users/Mina/Downloads/digital_ic_design/project_2/Test_Bench.v
+!i122 27
+L0 3 76
+R9
+R10
+r1
+!s85 0
+31
+!s108 1753973913.000000
+!s107 C:/Users/Mina/Downloads/digital_ic_design/project_2/Test_Bench.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Mina/Downloads/digital_ic_design/project_2/Test_Bench.v|
+!i113 0
+R14
+R4
+ntb_@s@p@i_@wrapper
+vtest
+R15
+!i10b 1
+!s100 fzmCKh@j?a[;PjRZ`iRC=1
+ImYf=`L0C<UHHF3hSnn9aA0
+R1
+w1753991556
+Z23 8Test_Bench.v
+Z24 FTest_Bench.v
+!i122 77
+L0 1 90
+R9
+R10
+r1
+!s85 0
+31
+R16
+R11
+R12
+!i113 0
+R13
+R4
+vtestbench
+!s110 1753976871
+!i10b 1
+!s100 TTY5Wo[jQKQ^DM_>>EGfb3
+IBmOT=mOlci4Ng3J@WB:4n0
+R1
+w1753976859
+R23
+R24
+!i122 47
+L0 3 87
+R9
+R10
+r1
+!s85 0
+31
+!s108 1753976871.000000
+R11
+R12
+!i113 0
+R13
+R4

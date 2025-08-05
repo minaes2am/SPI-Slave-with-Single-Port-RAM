@@ -1,0 +1,29 @@
+C:/Users/Mina/Downloads/digital_ic_design/project_2/Test_Bench.v {1 {vlog -work work -vopt -stats=none C:/Users/Mina/Downloads/digital_ic_design/project_2/Test_Bench.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} C:/Users/Mina/Downloads/digital_ic_design/project_2/RAM.v {1 {vlog -work work -vopt -stats=none C:/Users/Mina/Downloads/digital_ic_design/project_2/RAM.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module RAM_MODULE
+
+Top level modules:
+	RAM_MODULE
+
+} {} {}} C:/Users/Mina/Downloads/digital_ic_design/project_2/SPI_WRAPPER.v {1 {vlog -work work -vopt -stats=none C:/Users/Mina/Downloads/digital_ic_design/project_2/SPI_WRAPPER.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_Wrapper
+
+Top level modules:
+	SPI_Wrapper
+
+} {} {}} C:/Users/Mina/Downloads/digital_ic_design/project_2/SPI.v {1 {vlog -work work -vopt -stats=none C:/Users/Mina/Downloads/digital_ic_design/project_2/SPI.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_MODULE
+
+Top level modules:
+	SPI_MODULE
+
+} {} {}}
